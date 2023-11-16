@@ -1,0 +1,34 @@
+Question5:-
+
+Answer:-
+
+JavaScript comments can be used to explain JavaScript code, and to make it more readable. JavaScript comments can also be used to prevent execution, when testing alternative code.
+
+A comment is basically a text note that gives an explanation about the source code. Furthermore, they act as documentation in the source code. We include comments to increase the readability of the program. Besides, comments make it easy for the programmer to remember the complex things added to the code.
+
+Types of comments:-
+
+There are mainly two types of comments as follows:
+
+sigle-Line Comments:-
+
+These are basically the single-line comment.
+
+For example:
+<script>  
+// It is single line comment  
+document.write("hello javascript");  
+</script>
+
+
+Multi-line comment:-
+
+These are the multi-line comment. There are different ways of writing comments in each programming language. Moreover, the multi-line comment symbols can be used for single-line comments as well.
+
+For example:
+
+<script>  
+/* It is multi line comment.  
+It will not be displayed */  
+document.write("example of javascript multiline comment");  
+</script>

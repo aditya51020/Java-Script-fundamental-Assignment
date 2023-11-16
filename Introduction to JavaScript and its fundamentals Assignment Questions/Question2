@@ -1,0 +1,31 @@
+Question2:-
+
+Answer:-
+
+HTML defines the content and structure of a web page, while JavaScript allows for manipulation of the content and the behavior of the page
+
+HTML (Hypertext Markup Language) is a markup language used for creating static web pages, while JavaScript is a programming language used for creating interactive and dynamic web pages.
+
+HTML is declarative and does not have the ability to perform logic or make decisions, while javaScript is a scripting language and can perform logic, make decisions, and manipulate the HTML DOM.
+
+for example:-
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Example</title>
+    <script>
+        function greetUser() {
+            var userName = prompt("What's your name?");
+            alert("Hello, " + userName + "!");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <button onclick="greetUser()">Say Hello</button>
+</body>
+
+</html>

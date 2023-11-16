@@ -1,0 +1,48 @@
+Question2:-
+
+Answer:-
+
+1. **Arithmetic Operators:** These operators perform mathematical calculations on numeric values.
+   - Addition (+): `let sum = 10 + 5;` // sum will be 15
+   - Subtraction (-): `let difference = 20 - 8; // difference will be 12`
+   - Multiplication (*): `let product = 6 * 4; // product will be 24`
+   - Division (/): `let quotient = 16 / 4; // quotient will be 4`
+   - Modulus (%): `let remainder = 17 % 5; // remainder will be 2`
+
+2. **Assignment Operators:** These operators assign values to variables.
+   - Assignment (=): `let x = 10;`
+   - Addition assignment (+=): `x += 5; // equivalent to x = x + 5;`
+   - Subtraction assignment (-=): `x -= 3; // equivalent to x = x - 3;`
+   - Multiplication assignment (*=): `x *= 2; // equivalent to x = x * 2;`
+   - Division assignment (/=): `x /= 4; // equivalent to x = x / 4;`
+
+3. **Comparison Operators:** These operators compare values and return a boolean (true or false) result.
+   - Equal to (==): `5 == '5'; // true (loose equality)`
+   - Not equal to (!=): `10 != 5; // true`
+   - Strict equal to (===): `5 === 5; // true (checks both value and type)`
+   - Strict not equal to (!==): `5 !== '5'; // true (checks both value and type)`
+   - Greater than (>): `15 > 10; // true`
+   - Less than (<): `3 < 7; // true`
+   - Greater than or equal to (>=): `20 >= 20; // true`
+   - Less than or equal to (<=): `12 <= 8; // false`
+
+4. **Logical Operators:** These operators are used for logical operations and return boolean values.
+   - Logical AND (&&): `true && false; // false`
+   - Logical OR (||): `true || false; // true`
+   - Logical NOT (!): `!true; // false`
+
+5. **Unary Operators:** These operators work on a single operand.
+   - Unary plus (+): `let num = +'5'; // num will be a number 5`
+   - Unary minus (-): `let negNum = -10; // negNum will be -10`
+   - Increment (++): `let a = 5; a++; // a will be 6`
+   - Decrement (--): `let b = 8; b--; // b will be 7`
+
+6. **Ternary Operator (Conditional Operator):** It is a conditional operator that takes three operands and returns a value based on a condition.
+   - Ternary Operator (?:): `let result = (5 > 3) ? 'yes' : 'no'; // result will be 'yes'`
+
+7. **Bitwise Operators:** These operators perform bitwise operations on integers.
+   - Bitwise AND (&): `let result = 5 & 3; // result will be 1 (0101 & 0011 = 0001)`
+   - Bitwise OR (|): `let result = 5 | 3; // result will be 7 (0101 | 0011 = 0111)`
+   - Bitwise XOR (^): `let result = 5 ^ 3; // result will be 6 (0101 ^ 0011 = 0110)`
+   - Bitwise NOT (~): `let result = ~5; // result will be -6 (~0101 = 1010)`
+

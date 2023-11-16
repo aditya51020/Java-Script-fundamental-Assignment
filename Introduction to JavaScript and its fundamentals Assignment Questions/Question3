@@ -1,0 +1,67 @@
+Question3:-
+
+Answwer:-
+
+Boolean:
+
+The boolean data type has only two values, true and false. It is mostly used to check a logical condition. Thus Booleans are logical data types which can be used for comparison of two variables or to check a condition. The true and false implies a ‘yes’ for ‘true’ and a ‘no’ for ‘false in some places when we check a condition or the existence of a variable or a value.
+
+When we check the data type of ‘true’ or ‘false’ using typeof operator, it returns a boolean.
+
+1 typeof(true) // returns boolean
+2 typeof(false) // returns boolean
+
+example:-
+
+var a =5;
+var b=6;
+a==b // returns false
+
+
+Numbers:
+
+A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+
+1 var a=250;  // integer value
+2 var b=25.5;  // a number containing a decimal 
+3 var c = 10e4 //  an exponential value which evaluates to 10*10000;
+
+
+String:
+
+The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
+
+1 var str1 = “This is a string1”;  
+2 var str2= ‘This is a string2’;
+3 var str3 = `This is a string3`;
+
+
+Undefined:
+
+Undefined data type means a variable that is not defined. The variable is declared but doesn’t contain any value.
+
+1 var a;
+2 console.log(a); // This will return undefined.
+
+The variable ‘a’ has been declared but hasn’t been assigned a value yet.
+We can assign a value to a:
+
+1 a=5;
+2 console.log(a); // This will return 5
+
+
+Null:
+
+The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+
+Something like this:
+
+1 var a = null;
+2 console.log(a);   // This returns null
+
+
+
+
+
+
+

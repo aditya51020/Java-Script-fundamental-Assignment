@@ -1,0 +1,33 @@
+Question4:-
+
+Answer:-
+
+**Precedence Operator:**
+precedence Operator  determines the order in which operators are evaluated when an expression contains multiple operators. Some operators have higher precedence than others, meaning they are evaluated first. For instance, in the expression `a + b * c`, the multiplication (`*`) has higher precedence than addition (`+`), so `b * c` will be evaluated first before adding it to `a`.
+
+Foe example:-
+
+```javascript
+
+let result = 2 + 3 * 4;                                 // Multiplication has higher precedence than addition
+console.log(result);                                   // Output will be 14 (3 * 4 = 12, then 2 + 12 = 14)
+```
+
+**Associativity Operator:**
+associativity Operator determines the order of evaluation when operators of the same precedence appear in an expression. It defines whether operators are evaluated from left to right (left-associative) or right to left (right-associative). For example, in a left-associative scenario, `a - b - c` is evaluated as `(a - b) - c` because `-` is left-associative.
+
+Foe example:-
+
+```javascript
+let result = 10 - 3 - 2;                                 // Left-associative
+console.log(result);                                    // Output will be 5 ((10 - 3) - 2 = 7 - 2 = 5)
+```
+
+**Importance of Understanding Precedence and Associativity:**
+
+1. **Correctness of Expressions:** Knowing the precedence helps in writing expressions where operations are performed in the intended order. Incorrect precedence can lead to unexpected results.
+
+2. **Clarity and Readability:** Code readability improves when operators are used in a way that follows the expected precedence and associativity, making the code more understandable to other developers.
+
+3. **Debugging:** Understanding these concepts aids in debugging code where unexpected results or errors occur due to incorrect operator usage.
+

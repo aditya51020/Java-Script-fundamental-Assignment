@@ -1,0 +1,9 @@
+Question1:-
+
+Answer:-
+
+The JavaScript in operator is used to check if a specified property exists in an object or in its inherited properties (in other words, its prototype chain). The in operator returns true if the specified property exists. Anatomy of a simple JavaScript object.
+
+Operators are used to assign values, compare values, perform arithmetic operations, and more. There are different types of JavaScript operators: Arithmetic Operators.
+
+Objects are self-contained, and each bit of functionality does its own thing while leaving the other bits alone. Also, this modularity allows an IT team to work on multiple objects simultaneously while minimizing the chance that one person might duplicate someone else's functionality.

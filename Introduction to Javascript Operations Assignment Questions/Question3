@@ -1,0 +1,48 @@
+Question3:-
+
+Answer:-
+
+In JavaScript, operators are classified based on the number of operands they work on:
+
+1. **Unary Operators:**
+   - Unary operators work on a single operand.
+   - These operators perform operations on only one value.
+   - Example unary operators include unary plus (+), unary minus (-), increment (++), decrement (--), and logical NOT (!).
+
+   Examples:
+
+   ```javascript
+   let x = 5;
+   let y = -x;                                                              // Unary minus operator (-)
+   let a = 10;
+   a++;                                                                   // Unary increment operator (++)
+   let isTrue = true;
+   let notTrue = !isTrue;                                                // Unary logical NOT operator (!)
+   ```
+
+2. **Binary Operators:**
+   - Binary operators work on two operands.
+   - These operators perform operations between two values.
+   - Examples include arithmetic operators (+, -, *, /), assignment operators (=, +=, -=), comparison operators (==, !=, ===, !==), logical operators (&&, ||), etc.
+
+   Examples:
+   ```javascript
+   let a = 10;
+   let b = 5;
+   let sum = a + b;                                                             // Binary addition operator (+)
+   let product = a * b;                                                          // Binary multiplication operator (*)
+   let isEqual = (a === b);                                                       // Binary strict equality operator (===)
+   let logicalAnd = (a > 5) && (b < 10);                                         // Binary logical AND operator (&&)
+   ```
+
+3. **Ternary Operator:**
+   - The ternary operator is the only JavaScript operator that takes three operands.
+   - It's a conditional operator that evaluates a condition and returns one of two values depending on whether the condition is true or false.
+   - The syntax is `condition ? value1 : value2`.
+
+   Example:
+   ```javascript
+   let age = 20;
+   let allowed = (age >= 18) ? 'Allowed' : 'Not Allowed';                            // Ternary conditional operator (? :)
+   ```
+
